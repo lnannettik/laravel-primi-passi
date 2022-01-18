@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 // HOMEPAGE
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        'title' => 'Pdor',
+        'lorem' => 'Grigino',
+    ]);
 });
 
 

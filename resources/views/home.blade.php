@@ -81,12 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Pdor
+                    {{ $title }}
                 </div>
 
                 <div class="links">
                     <a href="/">Mammolo</a>
-                    <a href="/">Brontolo</a>
+                    <a href="/">{{ $lorem }}</a>
                     <a href="/">Eolo</a>
                     <a href="/">Pisolo</a>
                     <a href="/">Dotto</a>
